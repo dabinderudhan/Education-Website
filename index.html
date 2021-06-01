@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ANIMATION CSS LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <!-- NORMALIZE CSS -->
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <title>Education Website</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Side NavBar -->
+      <nav id="nav">
+        <div class="sideNavbar" id="mySideNavbar">
+          <a href="#" class="closebtn"><i class="fas fa-times-circle"></i></a>
+          <a href="./about.html">About</a>
+          <a href="#video-courses">Video Courses</a>
+          <a href="./private.html">Private Sessions</a>
+          <a href="./faq.html">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div id="mySocialIcons" class="social-icons show-social-icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="icons">
+          <span class="openbtn"><i class="fas fa-bars"></i></span>
+        </div>
+      </nav>
+
+      <!-- top-Navbar -->
+      <div id="stickyNav">
+        <div class="logo">
+          <a href="#"> <i class="fab fa-leanpub"></i></a>
+        </div>
+        <div id="login" class="sign-up">
+          <a href="javascript:void(0)">
+            <i class="fas fa-user-circle"></i>
+            <span>Log In</span></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Sign-up Modal -->
+    <section id="myModal" class="section-modal">
+      <div class="signup-modal">
+        <span class="close"><i class="fas fa-times"></i></span>
+        <form class="form signup-form" action="">
+          <h1>Sign Up</h1>
+          <p>Already a member? <a class="login-link" href="#">Log In</a></p>
+          <label for="email">Email</label>
+          <input type="email" name="email" required />
+          <label for="password">Password</label>
+          <input type="password" name="password" required />
+          <button class="formbtn" type="submit" value="Sign Up">Sign Up</button>
+        </form>
+        <form class="form login-form" action="">
+          <h1>Log In</h1>
+          <p>New to this site? <a class="signup-link" href="#">Sign Up</a></p>
+          <label for="email">Email</label>
+          <input type="email" name="email" required />
+          <label for="password">Password</label>
+          <input type="password" name="password" required />
+          <p class="forgot">Forgot password?</p>
+          <button class="formbtn" type="submit" value="Log In">Log In</button>
+        </form>
+        <form class="form new-password" action="">
+          <h1>Create New Password</h1>
+          <p>Please enter your email address</p>
+          <label for="email">Email</label>
+          <input type="email" name="email" required />
+          <button class="formbtn" type="submit" value="create password">
+            Create Password
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- hero section -->
+    <section class="section-hero">
+      <div class="container">
+        <div class="hero">
+          <div id="triangle-right" class="triangle"></div>
+          <div class="line"></div>
+          <div class="full-circle"></div>
+          <div class="c-shape"></div>
+          <h1>Speak with confidence</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            dolorum libero quia error eius modi ex alias. Laboriosam, quia
+            officia!
+          </p>
+          <a href="#video-section" class="js--scroll-to-video">
+            <button type="button" class="btn">watch videos</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Video -->
+    <section id="video-section" class="section-video js--section-video">
+      <div class="container">
+        <div class="video-content">
+          <h5>watch&learn</h5>
+          <h1>how it works</h1>
+          <a href="#" class="play-video"
+            ><i class="far fa-play-circle"></i> <span>Play Video</span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Modal Section -->
+    <section id="myvideo-modal" class="section-video-modal">
+      <div class="video-modal">
+        <span class="close-video-modal"><i class="fas fa-times"></i></span>
+        <p class="video-sign-share">
+          <span class="signin">Sign in</span> | <i class="fas fa-share"></i>
+          <span class="share">Share</span>
+        </p>
+        <div class="video-wrapper">
+          <div class="trailer">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/0wDQpdAeJlk?rel=0&controls=0&modestbranding=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-text">
+            <h1>How it Works</h1>
+            <small>Watch&Learn ◻️ Education ◻️ 01:02</small>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              aperiam qui nulla debitis ipsum unde voluptatibus eligendi
+              laudantium odio inventore. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aliquam, suscipit eaque iure illum ipsam rerum
+              quas necessitatibus labore laboriosam dolore!
+            </p>
+          </div>
+          <div class="share-screen">
+            <div class="share-content">
+              <span class="close-share-screen"
+                ><i class="fas fa-times"></i
+              ></span>
+              <h2>Share</h2>
+              <select name="share-list" id="share-list">
+                <option value="wholechannel">Whole Channel</option>
+                <option value="thisvideo">This Video</option>
+              </select>
+              <div class="share-icons">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-tumblr"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section  -->
+    <section id="video-courses" class="section-courses">
+      <div class="container">
+        <div class="info">
+          <p>
+            <span>Courses Avaliable.</span> Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Aspernatur sequi recusandae earum
+            voluptatibus et magnam nesciunt natus.
+          </p>
+        </div>
+        <div class="courses">
+          <div class="course1">
+            <div class="small-triangle"></div>
+            <a href="#"
+              ><h1>Presentations</h1>
+              <p>Watch & Learn 👈</p></a
+            >
+          </div>
+          <div class="course2">
+            <div class="small-c"></div>
+            <a href="#"
+              ><h1>Interviews</h1>
+              <p>Watch & Learn 👈</p></a
+            >
+          </div>
+          <div class="course3">
+            <div class="half-circle"></div>
+            <a href="#"
+              ><h1>Socializing</h1>
+              <p>Watch & Learn 👈</p></a
+            >
+          </div>
+          <div class="course4">
+            <div class="square"></div>
+            <a href="#"
+              ><h1>Negotiations</h1>
+              <p>Watch & Learn 👈</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider Section  -->
+    <section class="section-slider">
+      <div class="container">
+        <div class="section-header">
+          <h3>Read what others are saying about our courses</h3>
+          <div class="small-line"></div>
+        </div>
+        <div id="slide" class="slideshow-container">
+          <div class="testimonials slide-1">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              debitis dolore harum numquam quod accusamus
+            </p>
+            <p class="name">Antonio, Mexico</p>
+          </div>
+          <div class="testimonials slide-2">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              doloribus laborum excepturi recusandae eum quo
+            </p>
+            <p class="name">Maria, Mexico</p>
+          </div>
+          <div class="testimonials slide-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              sunt culpa non atque est temporibus, aut
+            </p>
+            <p class="name">Sophia, Mexico</p>
+          </div>
+          <div class="prev-next-btns">
+            <button class="slider-btn btn-left">
+              <i class="fas fa-angle-double-left"></i>
+            </button>
+            <button class="slider-btn btn-right">
+              <i class="fas fa-angle-double-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Chat Section -->
+    <section class="section-videochat">
+      <div class="container">
+        <div class="wrapper">
+          <div class="topbox">
+            <div class="big-square"></div>
+            <p>Interested in a private lesson?</p>
+            <h1>We're available on video chat</h1>
+          </div>
+          <div class="leftbox">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              fugiat iure dolore ipsam sunt corporis, voluptates quia hic
+              eveniet accusamus.
+            </p>
+            <a href="./private.html">Book A Session 👉</a>
+          </div>
+          <div class="rightbox">
+            <img src="./images/woman-videochat.jpg" alt="woman-videochat" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="leftarea">
+            <p class="para1">
+              <span
+                >Watch & Learn teaches business English speaking skills.</span
+              >
+              Contact us if you have more questions about our courses
+            </p>
+            <p class="para2">info@mysite.com</p>
+            <p class="para2">Tel. 123.456.7890</p>
+            <p class="copyright">
+              ©️ 2021 by Watch & Learn. Proudly created with Wix.com
+            </p>
+          </div>
+          <div class="rightarea">
+            <p>Subscribe to get updates on new video courses</p>
+            <form class="subform">
+              <input type="text" placeholder="Enter your email here" required />
+              <button class="subbtn" type="submit">Subscribe Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JQuerry -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+
+    <!-- JS main script -->
+    <script type=text/javascript src="./js/main.js"></script>
+  </body>
+</html>
