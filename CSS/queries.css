@@ -1,0 +1,1284 @@
+/* =========== Media Queries ============= */
+
+@media only screen and (min-width: 769px) and (max-width: 1225px) {
+  /* styles for browsers larger than 960px; */
+  .hero h1 {
+    font-size: 300%;
+    margin-top: 300px;
+  }
+
+  .section-video {
+    margin-top: 250px;
+  }
+
+  .courses {
+    grid-column-gap: 100px;
+  }
+
+  .courses h1 {
+    font-size: 200%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+  /* Sticky Navbar */
+  #stickyNav {
+    width: 100%;
+    padding: 10px 30px 10px 80px;
+  }
+  #stickyNav.sticky {
+    padding: 5px 30px 5px 80px;
+  }
+  #stickyNav.sticky .logo i {
+    font-size: 250%;
+  }
+  .logo i {
+    font-size: 400%;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 480px;
+  }
+
+  /* Sidebar Nav */
+
+  .sideNavbar {
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  .icons {
+    height: 100%;
+  }
+
+  .show-social-icons {
+    bottom: 200px;
+  }
+
+  .social-icons {
+    bottom: 0;
+    height: 320px;
+  }
+
+  /* Hero Section */
+  .hero h1 {
+    font-size: 300%;
+    margin-top: 270px;
+    margin-left: 70px;
+  }
+
+  .hero p {
+    font-size: 100%;
+    max-width: 80%;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  .btn {
+    padding: 20px 30px;
+    margin: 20px 0 0 100px;
+  }
+  .line {
+    width: 100px;
+    top: -105px;
+    right: 95px;
+  }
+
+  .full-circle {
+    width: 130px;
+    height: 65px;
+    top: -170px;
+    right: 30px;
+  }
+
+  #triangle-right {
+    border-top: 220px solid transparent;
+    border-left: 500px solid var(--jungleGreen);
+    border-bottom: 220px solid transparent;
+  }
+
+  .c-shape {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    bottom: -250px;
+    right: 30px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border: 100px solid var(--black);
+    border-bottom: none;
+    transform: rotate(-35deg);
+  }
+
+  /* Video Section */
+  .section-video {
+    width: 100%;
+    height: 300px;
+    margin-top: 180px;
+    background-size: fit;
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  .video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    left: 10%;
+    height: 300px;
+    padding-top: 400px;
+  }
+
+  .video-content h1 {
+    font-size: 200%;
+    color: black;
+  }
+
+  .video-content span,
+  .video-content i {
+    font-size: 120%;
+    color: black;
+  }
+
+  .video-content h5 {
+    color: black;
+  }
+
+  /* Video modal section */
+
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    flex: 1;
+    width: 450px;
+    top: 100px;
+  }
+
+  .trailer iframe {
+    width: 450px;
+    height: 360px;
+    line-height: 0%;
+  }
+
+  .video-text {
+    margin-top: 50px;
+  }
+
+  .video-text h1 {
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+
+  .video-text p {
+    line-height: 1.5;
+  }
+
+  .share-screen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 450px;
+    height: 360px;
+    padding: 20px;
+  }
+
+  /* Course Section */
+  .section-courses {
+    padding: 200px 0 70px 0;
+    /* margin-top: 230px; */
+  }
+
+  .info {
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 100px;
+  }
+
+  .info p {
+    margin: 0 5% 0 15%;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .course1,
+  .course2,
+  .course3 {
+    margin-bottom: 150px;
+  }
+
+  .course4 {
+    margin-bottom: 20px;
+  }
+
+  .courses h1 {
+    font-size: 200%;
+  }
+
+  .courses p {
+    font-size: 120%;
+  }
+
+  .course1 .small-triangle {
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-left: 170px solid var(--jungleGreen);
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    z-index: -1;
+    left: 20px;
+    top: -80px;
+    transform: rotate(225deg);
+  }
+
+  .course2 .small-c {
+    height: 100px;
+    width: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: transparent;
+    border: 70px solid var(--primary-200);
+    border-bottom: none;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-45deg);
+    bottom: 50px;
+    right: -60px;
+  }
+
+  .course3 .half-circle {
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: var(--primary-200);
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    right: -10px;
+    top: -20px;
+  }
+
+  .course4 .square {
+    height: 0;
+    width: 125px;
+    border-left: 30px solid transparent;
+    border-top: 125px solid var(--jungleGreen);
+    border-right: 30px solid transparent;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-25deg);
+    right: 10px;
+    top: -30px;
+  }
+
+  /* Slider Section */
+
+  .section-slider {
+    margin: 0% 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-slider h3 {
+    font-size: 125%;
+  }
+
+  .testimonials p {
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .testimonials .name {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 150%;
+  }
+
+  .slider-btn i {
+    font-size: 100%;
+  }
+
+  /* Video Chat Session */
+  .section-videochat {
+    margin: 0% 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row-gap: 0px;
+  }
+
+  .leftbox {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .big-square {
+    width: 200px;
+    height: 0;
+    border-bottom: 100px solid var(--jungleGreen);
+    /* border-top: 0 solid transparent; */
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-225deg);
+    left: -60px;
+    top: 30px;
+  }
+
+  /* footer */
+  footer {
+    margin: 0% 0% 0% 10%;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 460px;
+  }
+
+  .leftarea {
+    position: absolute;
+    top: 250px;
+  }
+
+  .leftarea .para1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .leftarea .copyright {
+    margin-top: 30px;
+    color: var(--primary-400);
+    font-size: 80%;
+  }
+
+  .rightarea {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+  }
+
+  .rightarea p {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* About Section */
+
+  .about-section {
+    margin: 200px 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Private Section */
+  .private-section {
+    margin: 200px 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .private-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* FAQ Section */
+
+  .faq-section {
+    margin: 200px 0% 100px 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .question-title p {
+    font-size: 120%;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-width: 600px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+  /* Sticky Navbar */
+  #stickyNav {
+    width: 100%;
+    padding: 10px 30px 10px 80px;
+  }
+  #stickyNav.sticky {
+    padding: 5px 30px 5px 80px;
+  }
+  #stickyNav.sticky .logo i {
+    font-size: 250%;
+  }
+  .logo i {
+    font-size: 400%;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  /* Sidebar Nav */
+
+  .sideNavbar {
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  .icons {
+    height: 100%;
+  }
+
+  .show-social-icons {
+    bottom: 200px;
+  }
+
+  .social-icons {
+    bottom: 0;
+    height: 320px;
+  }
+
+  /* Hero Section */
+  .hero h1 {
+    font-size: 300%;
+    margin-top: 270px;
+    margin-left: 70px;
+  }
+
+  .hero p {
+    font-size: 100%;
+    max-width: 80%;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  .btn {
+    padding: 20px 30px;
+    margin: 20px 0 0 100px;
+  }
+  .line {
+    width: 100px;
+    top: -105px;
+    right: 95px;
+  }
+
+  .full-circle {
+    width: 130px;
+    height: 65px;
+    top: -170px;
+    right: 30px;
+  }
+
+  #triangle-right {
+    border-top: 220px solid transparent;
+    border-left: 500px solid var(--jungleGreen);
+    border-bottom: 220px solid transparent;
+  }
+
+  .triangle.animate__fadeInLeftBig {
+    opacity: 1;
+    left: -50px;
+  }
+
+  .c-shape {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    bottom: -250px;
+    right: 30px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border: 100px solid var(--black);
+    border-bottom: none;
+    transform: rotate(-35deg);
+  }
+
+  /* Video Section */
+  .section-video {
+    width: 100%;
+    height: 400px;
+    margin-top: 180px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  .video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    left: 10%;
+    height: 300px;
+    padding-top: 500px;
+  }
+
+  .video-content h1 {
+    font-size: 200%;
+    color: black;
+  }
+
+  .video-content span,
+  .video-content i {
+    font-size: 120%;
+    color: black;
+  }
+
+  .video-content h5 {
+    color: black;
+  }
+
+  /* Video modal section */
+
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    flex: 1;
+    width: 450px;
+    top: 100px;
+  }
+
+  .trailer iframe {
+    width: 450px;
+    height: 360px;
+    line-height: 0%;
+  }
+
+  .video-text {
+    margin-top: 50px;
+  }
+
+  .video-text h1 {
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+
+  .video-text p {
+    line-height: 1.5;
+  }
+
+  .share-screen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 450px;
+    height: 360px;
+    padding: 20px;
+  }
+
+  /* Course Section */
+  .section-courses {
+    padding: 200px 0 70px 0;
+    /* margin-top: 230px; */
+  }
+
+  .info {
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 100px;
+  }
+
+  .info p {
+    margin: 0 5% 0 15%;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .course1,
+  .course2,
+  .course3 {
+    margin-bottom: 150px;
+  }
+
+  .course4 {
+    margin-bottom: 20px;
+  }
+
+  .courses h1 {
+    font-size: 200%;
+  }
+
+  .courses p {
+    font-size: 120%;
+  }
+
+  .course1 .small-triangle {
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-left: 170px solid var(--jungleGreen);
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    z-index: -1;
+    left: 20px;
+    top: -80px;
+    transform: rotate(225deg);
+  }
+
+  .course2 .small-c {
+    height: 100px;
+    width: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: transparent;
+    border: 70px solid var(--primary-200);
+    border-bottom: none;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-45deg);
+    bottom: 50px;
+    right: -60px;
+  }
+
+  .course3 .half-circle {
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: var(--primary-200);
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    right: -10px;
+    top: -20px;
+  }
+
+  .course4 .square {
+    height: 0;
+    width: 125px;
+    border-left: 30px solid transparent;
+    border-top: 125px solid var(--jungleGreen);
+    border-right: 30px solid transparent;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-25deg);
+    right: 10px;
+    top: -30px;
+  }
+
+  /* Slider Section */
+
+  .section-slider {
+    margin: 0% 0% 10% 8%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-slider h3 {
+    font-size: 125%;
+  }
+
+  .testimonials p {
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .testimonials .name {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 150%;
+  }
+
+  .slider-btn i {
+    font-size: 100%;
+  }
+
+  /* Video Chat Session */
+  .section-videochat {
+    margin: 0% 0% 10% 9%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row-gap: 0px;
+  }
+
+  .leftbox {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .big-square {
+    width: 200px;
+    height: 0;
+    border-bottom: 100px solid var(--jungleGreen);
+    /* border-top: 0 solid transparent; */
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-225deg);
+    left: -60px;
+    top: 30px;
+  }
+
+  /* footer */
+  footer {
+    margin: 0% 0% 0% 9%;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 460px;
+  }
+
+  .leftarea {
+    position: absolute;
+    top: 250px;
+  }
+
+  .leftarea .para1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .leftarea .copyright {
+    margin-top: 30px;
+    color: var(--primary-400);
+    font-size: 80%;
+  }
+
+  .rightarea {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+  }
+
+  .rightarea p {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* About Section */
+
+  .about-section {
+    margin: 200px 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Private Section */
+  .private-section {
+    margin: 200px 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .private-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* FAQ Section */
+
+  .faq-section {
+    margin: 200px 0% 100px 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .question-title p {
+    font-size: 120%;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-device-width: 768px) {
+  /* default iPad screens */
+
+  /* Sticky Navbar */
+  #stickyNav {
+    width: 100%;
+    padding: 10px 30px 10px 80px;
+  }
+  #stickyNav.sticky {
+    padding: 5px 30px 5px 80px;
+  }
+  #stickyNav.sticky .logo i {
+    font-size: 250%;
+  }
+  .logo i {
+    font-size: 400%;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  /* Sidebar Nav */
+
+  .sideNavbar {
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  .icons {
+    height: 100%;
+  }
+
+  .show-social-icons {
+    bottom: 200px;
+  }
+
+  .social-icons {
+    bottom: 0;
+    height: 320px;
+  }
+
+  /* Hero Section */
+  .hero h1 {
+    font-size: 300%;
+    margin-top: 270px;
+    margin-left: 70px;
+  }
+
+  .hero p {
+    font-size: 100%;
+    max-width: 80%;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  .btn {
+    padding: 20px 30px;
+    margin: 20px 0 0 100px;
+  }
+  .line {
+    width: 100px;
+    top: -105px;
+    right: 95px;
+  }
+
+  .full-circle {
+    width: 130px;
+    height: 65px;
+    top: -170px;
+    right: 30px;
+  }
+
+  #triangle-right {
+    border-top: 220px solid transparent;
+    border-left: 550px solid var(--jungleGreen);
+    border-bottom: 220px solid transparent;
+  }
+
+  .triangle.animate__fadeInLeftBig {
+    opacity: 1;
+    left: -50px;
+  }
+
+  .c-shape {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    bottom: -250px;
+    right: 30px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border: 100px solid var(--black);
+    border-bottom: none;
+    transform: rotate(-35deg);
+  }
+
+  /* Video Section */
+  .section-video {
+    width: 100%;
+    height: 500px;
+    margin-top: 180px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  .video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    left: 10%;
+    height: 300px;
+    padding-top: 600px;
+  }
+
+  .video-content h1 {
+    font-size: 200%;
+    color: black;
+  }
+
+  .video-content span,
+  .video-content i {
+    font-size: 120%;
+    color: black;
+  }
+
+  .video-content h5 {
+    color: black;
+  }
+
+  /* Video modal section */
+
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    flex: 1;
+    width: 450px;
+    top: 100px;
+  }
+
+  .trailer iframe {
+    width: 450px;
+    height: 360px;
+    line-height: 0%;
+  }
+
+  .video-text {
+    margin-top: 50px;
+  }
+
+  .video-text h1 {
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+
+  .video-text p {
+    line-height: 1.5;
+  }
+
+  .share-screen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 450px;
+    height: 360px;
+    padding: 20px;
+  }
+
+  /* Course Section */
+  .section-courses {
+    padding: 200px 0 70px 0;
+    /* margin-top: 230px; */
+  }
+
+  .info {
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 100px;
+  }
+
+  .info p {
+    margin: 0 5% 0 10%;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .course1,
+  .course2,
+  .course3 {
+    margin-bottom: 150px;
+  }
+
+  .course4 {
+    margin-bottom: 20px;
+  }
+
+  .courses h1 {
+    font-size: 200%;
+  }
+
+  .courses p {
+    font-size: 120%;
+  }
+
+  .course1 .small-triangle {
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-left: 170px solid var(--jungleGreen);
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    z-index: -1;
+    left: 20px;
+    top: -80px;
+    transform: rotate(225deg);
+  }
+
+  .course2 .small-c {
+    height: 100px;
+    width: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: transparent;
+    border: 70px solid var(--primary-200);
+    border-bottom: none;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-45deg);
+    bottom: 50px;
+    right: -60px;
+  }
+
+  .course3 .half-circle {
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: var(--primary-200);
+    position: absolute;
+    z-index: -1;
+    transform: rotate(270deg);
+    right: -10px;
+    top: -20px;
+  }
+
+  .course4 .square {
+    height: 0;
+    width: 125px;
+    border-left: 30px solid transparent;
+    border-top: 125px solid var(--jungleGreen);
+    border-right: 30px solid transparent;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-25deg);
+    right: 10px;
+    top: -30px;
+  }
+
+  /* Slider Section */
+
+  .section-slider {
+    margin: 0% 0% 10% 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-slider h3 {
+    font-size: 125%;
+  }
+
+  .testimonials p {
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .testimonials .name {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 150%;
+  }
+
+  .slider-btn i {
+    font-size: 100%;
+  }
+
+  /* Video Chat Session */
+  .section-videochat {
+    margin: 0% 0% 10% 5%;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row-gap: 0px;
+  }
+
+  .leftbox {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .big-square {
+    width: 200px;
+    height: 0;
+    border-bottom: 100px solid var(--jungleGreen);
+    /* border-top: 0 solid transparent; */
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-225deg);
+    left: -60px;
+    top: 30px;
+  }
+
+  /* footer */
+  footer {
+    margin: 0% 0% 0% 5%;
+    padding: 50px 20px 50px 50px;
+    text-align: center;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 460px;
+  }
+
+  .leftarea {
+    position: absolute;
+    top: 250px;
+  }
+
+  .leftarea .para1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .leftarea .copyright {
+    margin-top: 30px;
+    color: var(--primary-400);
+    font-size: 80%;
+  }
+
+  .rightarea {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+  }
+
+  .rightarea p {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* About Section */
+
+  .about-section {
+    margin: 200px 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Private Section */
+  .private-section {
+    margin: 200px 0% 10% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .private-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* FAQ Section */
+
+  .faq-section {
+    margin: 200px 0% 100px 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .question-title p {
+    font-size: 120%;
+    font-weight: 400;
+  }
+}
